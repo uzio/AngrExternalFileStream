@@ -1,0 +1,3 @@
+C sql 编译：gcc -I/usr/include/mysql <Cfilename> -L/usr/lib/mysql -lmysqlclient -o <execname>
+
+gcc -g -fpie -I /usr/include/mysql/ introduction3_sql.c -L /usr/lib/mysql/ -l mysqlclient -o intro3_sql
